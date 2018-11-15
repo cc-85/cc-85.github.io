@@ -93,15 +93,40 @@ nav {
   height: 100px;
   align-items: center;
   justify-content: center;
+  font-size: 13px;
 }
 
 .software-icons li i {
   font-size: 28px;
 }
 
+span {
+  margin-top: 7px;
+}
+
 .cell {
   display: flex;
   flex-direction: column;
+}
+
+.bulma {
+  background-image: url('../assets/images/bulma.png');
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.sqla {
+  background-image: url('../assets/images/sqlalchemy.png');
+  width: 50px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .pitch, .experience-content {
