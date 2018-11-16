@@ -171,6 +171,33 @@ span {
   display: flex;
 }
 
+.project-info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+  padding-right: 30px;
+}
+
+.project-info img {
+  width: 85%;
+}
+
+.project-description {
+  flex-basis: 0;
+  flex-grow: 3;
+  padding-right: 30px;
+}
+
+.button {
+  border: 1px solid #4DC0B4;
+  border-radius: 5px;
+}
+
+a.button {
+  text-decoration: none;
+}
+
 .experience-item {
   flex-basis: 0;
   flex-grow: 1;
