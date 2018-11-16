@@ -14,6 +14,10 @@
     src: url(../assets/fonts/HKGrotesk-Bold.ttf);
 }
 
+.about, .projects, .experience {
+  padding-top: 45px;
+}
+
 body {
   font-family: "HKGrotesk Medium";
   color: #3C3C3C;
@@ -35,7 +39,7 @@ h2 {
   color: #4DC0B4;
   font-family: "HKGrotesk Medium";
   font-size: 50px;
-  margin: 70px 0;
+  margin: 60px 0;
 }
 
 h3 {
@@ -53,7 +57,7 @@ nav {
   padding: 12px;
 }
 
-.nav-menu a {
+.nav-menu a, .nav-logo a {
   text-decoration: none;
   color: #3C3C3C;
   padding-left: 12px;
@@ -61,6 +65,7 @@ nav {
 
 .hero {
   background-image: url('../assets/images/bg1.jpg');
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -166,8 +171,13 @@ span {
   width: 90%;
 }
 
+.project-image.treasured, .project-image.sewnsews, .project-image.sushisquish {
+  margin-top: 55px;
+}
+
 .project-1, .project-2, .project-3, .project-4 {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .project-info {
@@ -251,9 +261,38 @@ footer {
   /* justify-content: center;
   align-content: center; */
   background-image: url('../assets/images/bg2-2.jpg');
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   width: 100%;
+}
+
+.image-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 175px;
+}
+
+.fabric-1 {
+  background-image: url('../assets/images/bg2-2.jpg');
+}
+
+.fabric-2 {
+  background-image: url('../assets/images/bg3.jpg');
+}
+
+.fabric-3 {
+  background-image: url('../assets/images/bg4.jpg');
+}
+
+.fabric-4 {
+  background-image: url('../assets/images/bg1.jpg');
+}
+
+.fabric-5 {
+  background-image: url('../assets/images/bg6.jpg');
 }
 
 .footer-heading {
