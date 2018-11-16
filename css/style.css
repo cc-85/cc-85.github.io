@@ -21,21 +21,21 @@ body {
 
 .container {
   max-width: 900px;
-  margin: 0 auto 0 auto;
-  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-software {
   max-width: 1100px;
-  margin: 0 auto 0 auto;
-  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 h2 {
   color: #4DC0B4;
   font-family: "HKGrotesk Medium";
   font-size: 50px;
-  margin: 70px 0 70px 0;
+  margin: 70px 0;
 }
 
 h3 {
@@ -74,6 +74,13 @@ nav {
 .hero h1 {
   color: white;
   align-self: center;
+  font-size: 28px;
+}
+
+img.name-gif {
+  width: 50%;
+  align-self: center;
+  margin: 20px 0 30px 0;
 }
 
 .software-icons {
@@ -110,7 +117,7 @@ span {
 }
 
 .bulma {
-  background-image: url('../assets/images/bulma.png');
+  background-image: url('../assets/images/bulma-1.png');
   width: 30px;
   height: 30px;
   background-size: contain;
@@ -120,8 +127,18 @@ span {
 }
 
 .sqla {
-  background-image: url('../assets/images/sqlalchemy.png');
+  background-image: url('../assets/images/sqla-1.png');
   width: 50px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.flask {
+  background-image: url('../assets/images/flask-1.png');
+  width: 30px;
   height: 30px;
   background-size: contain;
   background-position: center;
@@ -150,6 +167,10 @@ span {
   width: 90%;
 }
 
+.project-1, .project-2, .project-3, .project-4 {
+  display: flex;
+}
+
 .experience-item {
   flex-basis: 0;
   flex-grow: 1;
@@ -161,7 +182,7 @@ footer {
   flex-direction: column;
   /* justify-content: center;
   align-content: center; */
-  background-image: url('../assets/images/bg2.jpg');
+  background-image: url('../assets/images/bg2-2.jpg');
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -180,7 +201,7 @@ footer {
   text-decoration: none;
   align-self: center;
   border: 2px solid white;
-  margin: 35px 0 35px 0;
+  margin: 35px 0;
   padding: 10px;
   border-radius: 5px;
 }
