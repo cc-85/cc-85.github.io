@@ -99,7 +99,6 @@ img.name-gif {
   width: 100px;
   height: 100px;
   align-items: center;
-  justify-content: center;
   font-size: 13px;
 }
 
@@ -181,6 +180,7 @@ span {
 
 .project-info img {
   width: 85%;
+  margin-bottom: 15px;
 }
 
 .project-description {
@@ -189,13 +189,34 @@ span {
   padding-right: 30px;
 }
 
+.tech-icons {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.tech-icons li {
+  margin: 8px 8px 0 0;
+}
+
 .button {
   border: 1px solid #4DC0B4;
   border-radius: 5px;
+  padding: 5px;
+  margin: 4px;
 }
 
 a.button {
   text-decoration: none;
+  color: #4DC0B4;
+  font-size: 13px;
+  font-family: HKGrotesk Bold;
+  text-align: center;
+}
+
+.button i {
+  padding-right: 8px;
 }
 
 .experience-item {
