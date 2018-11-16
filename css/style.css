@@ -200,6 +200,26 @@ span {
   margin: 8px 8px 0 0;
 }
 
+.custom-icon {
+  display: flex;
+  font-size: 20px;
+}
+
+.custom-icon i.bulma {
+  width: 13px;
+  height: 20px;
+}
+
+.custom-icon i.flask {
+  width: 20px;
+  height: 20px;
+}
+
+.custom-icon i.sqla {
+  width: 25px;
+  height: 20px;
+}
+
 .button {
   border: 1px solid #4DC0B4;
   border-radius: 5px;
