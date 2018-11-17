@@ -82,6 +82,29 @@ nav {
   font-size: 28px;
 }
 
+.hero-arrow {
+  color: white;
+  align-self: center;
+  font-size: 35px;
+  margin-top: 75px;
+  animation: bounce 1.5s linear infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  25%, 75% {
+    transform: translateY(-15px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+}
+
 img.name-gif {
   width: 50%;
   align-self: center;
