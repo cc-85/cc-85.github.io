@@ -143,6 +143,17 @@ span {
   flex-direction: column;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #4DC0B4;
+  transition: .3s;
+}
+
+a.footer-email:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .bulma {
   background-image: url('../assets/images/bulma-1.png');
   width: 30px;
@@ -270,10 +281,10 @@ span {
 }
 
 .button {
-  border: 1px solid #4DC0B4;
+  /* border: 1px solid #4DC0B4;
   border-radius: 5px;
   padding: 5px;
-  margin: 4px;
+  margin: 4px; */
 }
 
 a.button {
@@ -282,6 +293,16 @@ a.button {
   font-size: 13px;
   font-family: HKGrotesk Bold;
   text-align: center;
+  border: 1px solid #4DC0B4;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 4px;
+}
+
+a.button:hover {
+  color: white;
+  background-color: #4DC0B4;
+  transition: .3s;
 }
 
 .button i {
