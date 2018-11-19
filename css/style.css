@@ -55,6 +55,7 @@ nav {
   background-color: white;
   font-size: 17px;
   padding: 12px;
+  align-items: center;
 }
 
 .nav-menu a, .nav-logo a {
@@ -384,4 +385,25 @@ footer {
   color: white;
   font-size: 35px;
   padding: 7px;
+}
+
+.nav-menu-burger {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+.nav-menu {
+  display: none;
+}
+
+.nav-menu-burger {
+  display: block;
+}
+
+.nav {
+  font-size: 35px;
+
+}
+
 }
