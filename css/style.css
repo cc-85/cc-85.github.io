@@ -415,7 +415,7 @@ img.name-gif {
   padding-left: 0;
 }
 
-.hero, .image-section {
+.hero, .image-section, footer {
   background-attachment: initial;
 }
 
