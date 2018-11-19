@@ -403,7 +403,38 @@ footer {
 
 .nav {
   font-size: 35px;
+}
 
+img.name-gif {
+  width: 85%;
+  align-self: center;
+  margin: 25px 0 40px 0;
+}
+
+.nav-logo a {
+  padding-left: 0;
+}
+
+.hero h1 {
+  font-size: 25px;
+}
+
+.pitch, .experience-content {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.experience-item {
+  padding-right: 0;
+  padding-bottom: 30px;
+}
+
+.bio {
+  margin-bottom: 30px;
+}
+
+.skills {
+  padding-left: 0;
 }
 
 }
