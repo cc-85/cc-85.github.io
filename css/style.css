@@ -415,6 +415,10 @@ img.name-gif {
   padding-left: 0;
 }
 
+.hero {
+  background-attachment: initial;
+}
+
 .hero h1 {
   font-size: 25px;
 }
@@ -435,6 +439,11 @@ img.name-gif {
 
 .skills {
   padding-left: 0;
+}
+
+.project-1, .project-2, .project-3, .project-4 {
+  display: block;
+  margin-bottom: 65px;
 }
 
 }
