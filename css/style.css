@@ -415,12 +415,16 @@ img.name-gif {
   padding-left: 0;
 }
 
-.hero {
+.hero, .image-section {
   background-attachment: initial;
 }
 
 .hero h1 {
   font-size: 25px;
+}
+
+h2 {
+  margin: 50px 0;
 }
 
 .pitch, .experience-content {
@@ -444,6 +448,36 @@ img.name-gif {
 .project-1, .project-2, .project-3, .project-4 {
   display: block;
   margin-bottom: 65px;
+}
+
+.project-info img, .tech-icons {
+  align-self: center;
+}
+
+.tech-icons {
+  font-size: 25px;
+}
+
+.project-info img {
+  width: 70%;
+}
+
+img.tippled-logo, img.sushi-squish-logo {
+  width: 50%;
+}
+
+.project-info, .project-description {
+  padding-right: 0;
+  padding-top: 20px;
+}
+
+a.button {
+  font-size: 18px;
+  padding: 6px;
+}
+
+.bio, .skills p, .project-description, .experience-item p {
+  line-height: 1.4;
 }
 
 }
