@@ -414,15 +414,16 @@ nav ul.active {
 /* .hero.active {
   padding-top: 500px;
 } */
-/* 
+
 nav {
-  position: sticky;
-} */
+  position: fixed;
+  width: 100%;
+}
 
 nav ul {
   width: 100%;
   position: absolute;
-  top: 6%;
+  top: 100%;
   left: 0px;
   padding: 10px 18px;
   /* box-shadow:0px 1px 1px rgba(0,0,0,0.15); */
