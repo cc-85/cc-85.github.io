@@ -411,9 +411,9 @@ nav ul.active {
 	display:none;
 }
 
-.hero.active {
+/* .hero.active {
   padding-top: 500px;
-}
+} */
 
 .nav {
   position:relative;
@@ -426,7 +426,7 @@ nav ul {
   top:100%;
   left:0px;
   padding:10px 18px;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+  /* box-shadow:0px 1px 1px rgba(0,0,0,0.15); */
   /* border-radius:3px; */
   background:white;
   flex-direction: column;

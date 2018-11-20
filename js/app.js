@@ -21,8 +21,15 @@ $(() => {
   const $togglenav = $('.toggle-nav');
   const $navul = $('nav ul');
   // const $heroactive = $('.hero');
+  const $menulink = $('.nav-menu a');
 
-  $togglenav.on('click', () => {
+  $togglenav.on('touchstart', () => {
+    $togglenav.toggleClass('active');
+    $navul.toggleClass('active');
+    // $heroactive.toggleClass('active');
+  });
+
+  $menulink.on('touchstart', () => {
     $togglenav.toggleClass('active');
     $navul.toggleClass('active');
     // $heroactive.toggleClass('active');
