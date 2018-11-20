@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: "HKGrotesk Medium";
+  font-family: "HKGrotesk Medium", trebuchet, Arial, sans-serif;
   color: #3C3C3C;
 }
 
@@ -37,7 +37,7 @@ body {
 
 h2 {
   color: #4DC0B4;
-  font-family: "HKGrotesk Medium";
+  font-family: "HKGrotesk Medium", trebuchet, Arial, sans-serif;
   font-size: 50px;
   margin: 60px 0;
 }
@@ -286,18 +286,11 @@ a.footer-email:hover {
   height: 20px;
 }
 
-.button {
-  /* border: 1px solid #4DC0B4;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 4px; */
-}
-
 a.button {
   text-decoration: none;
   color: #4DC0B4;
   font-size: 13px;
-  font-family: HKGrotesk Bold;
+  font-family: HKGrotesk Bold, trebuchet, Arial, sans-serif;
   text-align: center;
   border: 1px solid #4DC0B4;
   border-radius: 5px;
@@ -324,8 +317,6 @@ a.button:hover {
 footer {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-content: center; */
   background-image: url('../assets/images/bg2-2.jpg');
   background-attachment: fixed;
   background-position: center;
@@ -363,7 +354,7 @@ footer {
 
 .footer-heading {
   color: white;
-  font-family: "HKGrotesk Medium";
+  font-family: "HKGrotesk Medium", trebuchet, Arial, sans-serif;
   font-size: 50px;
   margin: 60px 0 0 0;
   align-self: center;
@@ -396,7 +387,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
 /* stuff start*/
 nav ul.active {
 	display:none;
@@ -447,9 +438,9 @@ a:hover {
   color: #3C3C3C;
 }
 
-nav {
+/* nav {
   font-size: 20px;
-}
+} */
 
 img.name-gif {
   width: 85%;
@@ -524,6 +515,14 @@ a.button {
 
 .bio, .skills p, .project-description, .experience-item p {
   line-height: 1.4;
+}
+
+.software-icons {
+  display: none;
+}
+
+.about, .experience {
+  padding-top: 20px;
 }
 
 }
