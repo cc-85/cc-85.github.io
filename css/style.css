@@ -406,7 +406,7 @@ footer {
   display: inline-block;
 } */
 
-/* stuff */
+/* stuff start*/
 nav ul.active {
 	display:none;
 }
@@ -414,18 +414,17 @@ nav ul.active {
 /* .hero.active {
   padding-top: 500px;
 } */
-
-.nav {
-  position:relative;
-  display:inline-block;
-}
+/* 
+nav {
+  position: sticky;
+} */
 
 nav ul {
-  width:100%;
-  position:absolute;
-  top:100%;
-  left:0px;
-  padding:10px 18px;
+  width: 100%;
+  position: absolute;
+  top: 6%;
+  left: 0px;
+  padding: 10px 18px;
   /* box-shadow:0px 1px 1px rgba(0,0,0,0.15); */
   /* border-radius:3px; */
   background:white;
@@ -434,9 +433,7 @@ nav ul {
   z-index: 1000;
 }
 
-.toggle-nav {
-  display: block;
-}
+
 
 /* not sure if this is needed? test
 nav ul:after {
@@ -466,14 +463,16 @@ nav a {
   float:left;
   display:inline-block;
   transition:color linear 0.15s;
+  color: #3C3C3C;
 }
+
 
 .toggle-nav:hover, .toggle-nav.active {
   text-decoration:none;
   color: #4DC0B4;
 }
 
-/* stuff */
+/* stuff end */
 
 nav {
   font-size: 20px;

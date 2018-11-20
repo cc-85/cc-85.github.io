@@ -20,19 +20,19 @@ console.log('JS loaded');
 $(() => {
   const $togglenav = $('.toggle-nav');
   const $navul = $('nav ul');
-  // const $heroactive = $('.hero');
   const $menulink = $('.nav-menu a');
 
-  $togglenav.on('touchstart', () => {
-    $togglenav.toggleClass('active');
-    $navul.toggleClass('active');
-    // $heroactive.toggleClass('active');
-  });
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 
-  $menulink.on('touchstart', () => {
-    $togglenav.toggleClass('active');
-    $navul.toggleClass('active');
-    // $heroactive.toggleClass('active');
-  });
+    $togglenav.on('touchstart', () => {
+      $togglenav.toggleClass('active');
+      $navul.toggleClass('active');
+    });
+
+    $menulink.on('click', () => {
+      $togglenav.toggleClass('active');
+      $navul.toggleClass('active');
+    });
+  }
 
 });
