@@ -388,7 +388,6 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  /* stuff start*/
   nav ul.active {
     display:none;
   }
@@ -431,8 +430,6 @@ footer {
     text-decoration:none;
     color: #3C3C3C;
   }
-
-  /* stuff end */
 
   a:hover {
     color: #3C3C3C;
