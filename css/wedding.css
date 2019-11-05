@@ -1,0 +1,20 @@
+body {
+    background-image: url('../assets/images/leaf-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+main {
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+
+    
+}
+
+/* .header {
+    background: red;
+} */
