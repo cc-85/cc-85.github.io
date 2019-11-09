@@ -12,7 +12,7 @@ main {
     width: 100%;
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding: 50px 35px;
     box-sizing: border-box;
     
 
@@ -26,6 +26,10 @@ main {
 
 .header{
     margin-bottom: 80px;
+}
+
+img.name-gif {
+    width: 100%;
 }
 
 p, address, h2 {
