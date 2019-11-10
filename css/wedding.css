@@ -6,9 +6,22 @@ html {
     background-position: center; */
 
 
-    background: url('../assets/images/leaf-background-v2.jpg') no-repeat center center fixed; 
+    /* background: url('../assets/images/leaf-background-v2.jpg') no-repeat center center fixed; 
     background-size: cover;
-    
+     */
+  }
+
+  #bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    /* min-width: 100%;
+    min-height: 100%; */
+
+    width: 100%;
+z-index: -1;
   }
 
 body {
