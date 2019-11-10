@@ -1,9 +1,22 @@
-body {
-    background-image: url('../assets/images/leaf-background-v3.jpg');
+html {
+    /* background-image: url('../assets/images/leaf-background-v3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+
+
+    background: url('../assets/images/leaf-background-v2.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    
+  }
+
+body {
+    /* background-image: url('../assets/images/leaf-background-v3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     
   }
