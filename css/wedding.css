@@ -1,37 +1,13 @@
-html {
-    /* background-image: url('../assets/images/leaf-background-v3.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; */
-
-
-    /* background: url('../assets/images/leaf-background-v2.jpg') no-repeat center center fixed; 
-    background-size: cover;
-     */
-  }
-
-  #bg {
+#bg {
     position: fixed; 
     top: 0; 
     left: 0; 
-      
-    /* Preserve aspet ratio */
-    /* min-width: 100%;
-    min-height: 100%; */
-
     width: 100%;
-z-index: -1;
+    z-index: -1;
   }
 
 body {
-    /* background-image: url('../assets/images/leaf-background-v3.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  
   }
 
 main {
@@ -69,29 +45,19 @@ h2 {
     margin: 22px 0;
 }
 
-p {
+p, address {
     font-size: 16px;
-    /* padding: 0 0 20px 0; */
     padding: 10px 0 10px 0;
     margin: 0;
+    font-style: normal;
     
 }
 
-address {
-    font-style: normal;
-    /* padding: 0 0 20px 0; */
-    padding: 10px 0 10px 0;
-    margin: 0;
-}
-
 hr {
-    /* border: lightgrey 1px solid; */
     background: rgba(127, 127, 127, 0.2);
     border: 0;
     height: 1px;
     display: block;
-    /* margin-left: 35px;
-    margin-right: 35px; */
     margin: 35px;
 }
 
@@ -99,9 +65,3 @@ a {
     color: lightseagreen;
     text-decoration: none;
 }
-
-
-
-/* .header {
-    background: red;
-} */
